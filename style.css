@@ -1,0 +1,106 @@
+/*#Game1{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 800px;
+}*/
+
+/*.GameIcon{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    text-align: center;
+}
+
+.GameIcon img{
+    margin-left: 3%;
+    box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.2), 0 12px 24px 0 rgba(0, 0, 0, 0.21);;
+    color-rendering: 3px;
+    border-radius: 9px;
+}
+
+.GameIcon img:active {
+  transform: translateY(4px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 16px 0 rgba(0, 0, 0, 0.69);;
+}*/
+
+
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+}
+
+.txt{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+/*    text-align: center;*/
+}
+
+.txt img{
+    box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.2), 0 12px 24px 0 rgba(0, 0, 0, 0.21);;
+    color-rendering: 3px;
+    border-radius: 9px;
+}
+
+.txt img:active {
+  transform: translateY(4px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 16px 0 rgba(0, 0, 0, 0.69);;
+}
+
+
+
+
+
+.txt {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18pt;
+    margin-left: 5%;
+    color: #c4829b;
+/*    text-align: center;*/
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper iframe {
+
+width: 90vw;
+height: 90vh;
+position: fixed;
+left: 3%;
+top: 2%;
+
+}
+
+.wrapper a{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18pt;
+    margin-left: 5%;
+
+}
